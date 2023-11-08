@@ -1,0 +1,6 @@
+export const ActionTypes = {
+    UPDATE_AGENCY: "UPDATE_AGENCY",
+    GET_AGENCY: 'GET_AGENCY',
+    ADD_AGENCY: 'ADD_AGENCY',
+    DELETE_AGENCY: 'DELETE_AGENCY',
+};

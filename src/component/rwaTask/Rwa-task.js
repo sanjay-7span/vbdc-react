@@ -1,5 +1,6 @@
 import '../../main-style.css';
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import axios from 'axios';
 import { getToken } from '../../auth/common';
 
@@ -29,7 +30,12 @@ const Blogs = () => {
           <div className='sticky top-0 bg-white z-10 text-gray-900 text-body border-b'>
             <div className='flex h-12 items-stretch bg-white'>
               <div className='px-3 flex items-center justify-center h-12 border-r'>
-                <p className='font-bold leading-none'>RWA Tasks</p>
+                <p className='font-bold leading-none text-3xl font-bold underline'>RWA Tasks </p>
+              </div>
+              <div className="v-list-search border-r flex-grow relative">
+                {/* <input placeholder="Search" type="text" className="w-full h-12 px-4 outline-none focus:ring-2 focus:ring-inset focus:ring-gray-200"/> */}
+              </div>
+              <div className="divide-x flex text-xl">
               </div>
             </div>
           </div>
